@@ -11,6 +11,11 @@ const express = require("express"), // Express - System route pour REST API
         database: "api_project"
     });
 
+// Connect to BDD
+connect.connect(err => {
+    if (err) console.error("Error connecting MySQL: " + err.stack);
+});
+
 
 app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(port, () => console.log(`Example app listening on port port!`))
