@@ -1,4 +1,4 @@
-const login_donne_manquante_401 = (
+exports.login_donne_manquante_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -7,7 +7,7 @@ const login_donne_manquante_401 = (
     }
 )
 
-const login_trop_de_tentative_sur_mail_409 = (
+exports.login_trop_de_tentative_sur_mail_409 = (res) => (
     res,
     status = 409,
     data = {
@@ -16,7 +16,7 @@ const login_trop_de_tentative_sur_mail_409 = (
     }
 )
 
-const login_passw_email_error_401 = (
+exports.login_passw_email_error_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -25,7 +25,7 @@ const login_passw_email_error_401 = (
     }
 )
 
-const register_donne_manquante_401 = (
+exports.register_donne_manquante_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -34,7 +34,7 @@ const register_donne_manquante_401 = (
     }
 )
 
-const register_donne_non_conforme_401 = (
+exports.register_donne_non_conforme_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -43,7 +43,7 @@ const register_donne_non_conforme_401 = (
     }
 )
 
-const register_email_exist_401 = (
+exports.register_email_exist_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -52,7 +52,7 @@ const register_email_exist_401 = (
     }
 )
 
-const user_id_donne_format_errone_401 = (
+exports.user_id_donne_format_errone_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -61,7 +61,7 @@ const user_id_donne_format_errone_401 = (
     }
 )
 
-const user_id_donne_valide_401 = (
+exports.user_id_donne_valide_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -71,7 +71,7 @@ const user_id_donne_valide_401 = (
 )
 
 
-const school_register_nom_existe_401 = (
+exports.school_register_nom_existe_401 = (res) => (
     res,
     status = 401,
     data = {
@@ -80,7 +80,7 @@ const school_register_nom_existe_401 = (
     }
 )
 
-const data_vide = (
+exports.data_vide = (res) => (
     res,
     status = 401,
     data = {
@@ -89,7 +89,7 @@ const data_vide = (
     }
 )
 
-const param_error = (
+exports.param_error = (res) => (
     res,
     status = 401,
     data = {
@@ -98,7 +98,7 @@ const param_error = (
     }
 )
 
-const maximum_etudiant = (
+exports.maximum_etudiant = (res) => (
     res,
     status = 401,
     data = {
