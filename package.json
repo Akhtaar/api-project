@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Akhtaar/api-project/issues"
   },
-  "homepage": "https://github.com/Akhtaar/api-project#readme"
+  "homepage": "https://github.com/Akhtaar/api-project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
 }
