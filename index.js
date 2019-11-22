@@ -1,14 +1,14 @@
 const express = require("express"),
     mysql = require("mysql"),
     bodyParser = require("body-parser"),
-    bcrypt = require("bcryptjs"),
+    bcrypt = require("bcrypt"),
     app = express(),
     port = 3000,
     connect = mysql.createConnection({
         host: "localhost",
         user: "root",
         password: "",
-        database: "api_project"
+        database: "api_nodejs"
     });
 
 
